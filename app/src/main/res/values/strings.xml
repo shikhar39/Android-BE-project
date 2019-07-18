@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BE Project</string>
+    <string name="google_maps_api_key"> AIzaSyCJEkUIgYvu421hxeOQcj_mbyoDesD1DRY </string>
+    <string name="get_permission">Hint:get permissions for the app</string>
+    <string name="enable_bt">Hint:connect device to bluetooth to start HUD</string>
+    <string name="ready">You are ready to Roll</string>
+</resources>
+

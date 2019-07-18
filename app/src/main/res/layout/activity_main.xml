@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="Welcome to Heads Up display"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="15"/>
+
+    <TextView
+        android:id="@+id/hint_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="10"
+        tools:text="Hint: Start by getting permissions"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/home_image"
+        android:layout_height="0dp"
+        android:src="@drawable/warning"
+        android:layout_weight="60"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:text="Connect to display"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/map_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Maps"
+            android:padding="15dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
